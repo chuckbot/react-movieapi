@@ -1,0 +1,34 @@
+.favorites-movies
+  display: inline-flex
+  justify-content: space-around
+  transform: scale(.6)
+
+
+  img
+    transition: ease-in-out .5s
+    animation: bot-top .5s forwards
+    border-radius: 10px
+
+@keyframes bot-top
+  from
+    transform: translateY(100%)
+    opacity: 0
+
+  to
+    transform: translateY(0)
+    opacity: 1
+
+.main-fav-container
+  height: 28vh
+  display: flex
+  align-items: center
+  position: relative
+  justify-content: center
+  background-image: radial-gradient(circle, #00ffc8, #00f9dc, #00f1ec, #00e9f7, #00e0fc, #00e0fc, #00e0fc, #00e0fc, #00e9f5, #00f2e8, #00f9d5, #00ffbc)
+
+.subtitle
+  color: white
+  position: absolute
+  left: 2%
+  z-index: 1000
+  bottom: 2%

@@ -1,0 +1,63 @@
+.main-container
+  padding: 2em
+  background-image: linear-gradient(to top, #01b39c, #00abb1, #00a1c3, #0095cd, #0086ce, #0089d2, #008bd5, #008ed9, #00a4e0, #00b7da, #00c8c9, #03d6b1)
+
+.movies-container
+  display: grid
+  grid-template-columns: repeat(3, 1fr)
+  grid-gap: 2em
+
+
+.single-movie
+  height: 300px
+  display: flex
+  overflow: hidden
+  //border-radius: 10px
+  box-shadow: 0 4px 10px black
+  position: relative
+
+.movie-info
+  padding: 1em
+  background: white
+  position: relative
+
+.movie-title
+  font-size: 1em
+  font-weight: bolder
+  margin: 0
+  text-align: start
+
+.movie-date
+  margin: .5em 0
+  text-align: start
+
+.movie-overview
+  font-size: .9em
+  text-align: justify
+  color: gray
+
+
+
+.movies-options
+  position: absolute
+  background: black
+  color: white
+  height: 2em
+  width: 100%
+  bottom: 0
+  left: 0
+  box-shadow: 0 -1px 10px black
+  display: flex
+  justify-content: space-around
+  align-items: center
+
+.search-container
+  display: flex
+  align-items: center
+
+.inputt
+  margin-left: 1em
+  height: 2em
+  width: 100%
+  padding: 0 0 0 1em
+  font-weight: bolder

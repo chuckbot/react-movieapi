@@ -1,0 +1,77 @@
+.main-container {
+  padding: 2em;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#01b39c), color-stop(#00abb1), color-stop(#00a1c3), color-stop(#0095cd), color-stop(#0086ce), color-stop(#0089d2), color-stop(#008bd5), color-stop(#008ed9), color-stop(#00a4e0), color-stop(#00b7da), color-stop(#00c8c9), to(#03d6b1));
+  background-image: -webkit-linear-gradient(bottom, #01b39c, #00abb1, #00a1c3, #0095cd, #0086ce, #0089d2, #008bd5, #008ed9, #00a4e0, #00b7da, #00c8c9, #03d6b1);
+  background-image: -o-linear-gradient(bottom, #01b39c, #00abb1, #00a1c3, #0095cd, #0086ce, #0089d2, #008bd5, #008ed9, #00a4e0, #00b7da, #00c8c9, #03d6b1);
+  background-image: linear-gradient(to top, #01b39c, #00abb1, #00a1c3, #0095cd, #0086ce, #0089d2, #008bd5, #008ed9, #00a4e0, #00b7da, #00c8c9, #03d6b1); }
+
+.movies-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2em; }
+
+.single-movie {
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  -webkit-box-shadow: 0 4px 10px black;
+  box-shadow: 0 4px 10px black;
+  position: relative; }
+
+.movie-info {
+  padding: 1em;
+  background: white;
+  position: relative; }
+
+.movie-title {
+  font-size: 1em;
+  font-weight: bolder;
+  margin: 0;
+  text-align: start; }
+
+.movie-date {
+  margin: .5em 0;
+  text-align: start; }
+
+.movie-overview {
+  font-size: .9em;
+  text-align: justify;
+  color: gray; }
+
+.movies-options {
+  position: absolute;
+  background: black;
+  color: white;
+  height: 2em;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  -webkit-box-shadow: 0 -1px 10px black;
+  box-shadow: 0 -1px 10px black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.search-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.inputt {
+  margin-left: 1em;
+  height: 2em;
+  width: 100%;
+  padding: 0 0 0 1em;
+  font-weight: bolder; }
