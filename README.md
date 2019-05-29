@@ -8,7 +8,7 @@ As a user I can see the most popular movies, search for the ones I like and clic
 
 ```
 git clone git@github.com:chuckbot/react-movieapi.git
-cd movies-app
+cd react-movieapi
 npm i
 npm start
 
